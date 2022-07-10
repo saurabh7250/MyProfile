@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        header{
+            border: 2px solid grey;
+            box-shadow: 2px 2px 2px grey;
+            display: flex;
+            justify-content: space-between;
+            padding: 3px;
+            margin-top: 3px;
+        }
+        .h-main h2{
+            font-family: arial;
+            font-weight: bold;
+            font-size: 30px;
+            padding-left: 25px;
+            color: rgb(32, 180, 180);
+        }
+        .h-body{
+            margin-right: 50px;
+        }
+        .h-body span{
+            margin-left: 35px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        section{
+            margin-top: 5px;
+            border: 2px solid grey;
+            box-shadow: 2px 2px 2px grey;
+        }
+        .banner{
+            background-image: url("images/88-884601_web-design-wallpaper-hd.jpg");
+            background-size: cover;
+            height: 550px;
+        }
+        .banner-body{
+            color: white;
+            width: 600px;
+            padding-left: 300px;
+            padding-top: 150px;
+            
+        }
+        .banner-btn{
+            padding-left: 300px;
+            padding-top: 50px;
+        }
+        .about,.certificate,.qualification{
+            display: flex;
+            justify-content: space-around;
+            padding: 5px;
+        }
+        .about-banner{
+            background-image: url("images/about\ banner.jpg");
+            background-size: cover;
+            height: 250px;
+            width: 400px;
+            border: 2px solid grey;
+            border-bottom-left-radius: 15%;
+            border-top-right-radius: 15%;
+        }
+        .about-banner h2,.cer-banner h2{
+            padding-left: 180px;
+            padding-top: 80px;
+            color: rgb(5, 93, 5);
+            font-weight: bold;
+            font-family: cursive ;
+        }
+        .about-body h2{
+            font-weight: bold;
+            font-family: arial;
+            margin-bottom: 30px;
+        }
+        .qua-banner{
+            background-image: url("images/qualifications.jpg");
+            background-size: cover;
+            height: 250px;
+            width: 400px;
+            border: 2px solid grey;
+            border-bottom-left-radius: 15%;
+            border-top-right-radius: 15%;
+        }
+        .qua-banner h2{
+            padding-left: 20px;
+            padding-top: 80px;
+            color: rgb(5, 93, 5);
+            font-weight: bold;
+            font-family: cursive ;
+        }
+        .cer-banner{
+            background-image: url("images/certificate.jpg");
+            background-size: cover;
+            height: 250px;
+            width: 400px;
+            border: 2px solid grey;
+            border-bottom-left-radius: 15%;
+            border-top-right-radius: 15%;
+        }
+        .service{
+            background-color: rgb(63, 69, 69);
+        }
+        .ser-title h1{
+            font-size: 50px;
+            font-family: cursive;
+            word-spacing: 10px;
+            color: whitesmoke;
+            text-align: center;
+            margin: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .ser-body{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .ser1,.ser2,.ser3{
+            text-align: center;
+            border: 1px solid grey;
+            box-shadow: 2px 5px 8px grey;
+            padding: 5px;
+            margin: 20px;
+            background-color: rgb(146, 244, 246);
+            color: rgb(18, 16, 16);
+        }
+        .ser1 h2,.ser2 h2,.ser3 h2{
+            margin: 30px;
+            font-weight: bold;
+        }
+        .contact{
+            background-image: url("images/ssssssssssss.png");
+            background-size: cover;
+            height: 300px;
+        }
+        .contact h2{
+            font-family: inherit;
+            color: white;
+            font-size: 40px;
+            margin-left: 100px;
+            margin-top: 3px;
+            padding-top: 30px;
+        }
+        .contact button{
+            margin-left: 200px;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div class="h-main">
+            <h2>Portfolio.</h1>
+        </div>
+        <div class="h-body">
+            <a href=""><span>Home</span></a>
+            <a href=""><span>About</span></a>
+            <a href=""><span>Services</span></a>
+            <a href=""><span>Projects</span></a>
+            <a href=""><span>Contact</span></a>
+            <a href=""><span>Help</span></a>
+        </div>
+    </header>
+    <section>
+        <div class="banner">
+           <div class="banner-body">
+            <p>THIS IS ME</p>
+            <h2>SAURABH KUMAR</h2>
+            <p>A Full-Stack Web Devloper</p>
+           </div>
+           <div class="banner-btn">
+            <button class="btn btn-warning">Discover Now</button>
+           </div>
+        </div>
+    </section>
+    <div class="about">
+        <div class="about-banner">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-body">
+            <h2>Personal Detail</h2>
+            <p>Saurabh Kumar <br>
+            Saurabhkumartendua7250@gmail.com <br>
+            974*****47 <br>
+            Bhawan-58 Ward no-03,Takiya <br>
+            pin-82**13</p>
+        </div>
+    </div>
+    <div class="qualification">
+        <div class="qua-body">
+            <h2>Qualifications</h2>
+            <p>Saurabh Kumar <br>
+            Saurabhkumartendua7250@gmail.com <br>
+            974*****47 <br>
+            Bhawan-58 Ward no-03,Takiya <br>
+            pin-82**13</p>
+        </div>
+        <div class="qua-banner">
+            <h2>Qualifications</h2>
+        </div> 
+    </div>
+    <div class="certificate">
+        <div class="cer-banner">
+            <h2>Certificates</h2>
+        </div>
+        <div class="about-body">
+            <h2>Certifications</h2>
+            <p>Saurabh Kumar <br>
+            Saurabhkumartendua7250@gmail.com <br>
+            974*****47 <br>
+            Bhawan-58 Ward no-03,Takiya <br>
+            pin-82**13</p>
+        </div>
+    </div>
+    <div class="service">
+        <div class="ser-title">
+            <h1>What Services you will Get from me!</h1>
+        </div>
+        <div class="ser-body">
+            <div class="ser1">
+                <div>
+                    <img src="./images/ui.webp" height="200" width="250">
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>“The most profound technologies are those that disappear. They weave themselves into the fabric of everyday life until they are indistinguishable from it.”</p>
+                </div>
+            </div>
+            <div class="ser2">
+                <div>
+                    <img src="./images/Web-Development-and-Web-Design-Company.png.crdownload" height="200" width="250">
+                </div>
+                <div>
+                    <h2>Website Design</h2>
+                    <p>“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.”</p>
+                </div>
+            </div>
+            <div class="ser3">
+                <div>
+                    <img src="./images/digital-marketing-concept-image-business.jpg" height="200" width="250">
+                </div>
+                <div>
+                    <h2>Digital Marketing</h2>
+                    <p>“We have technology, finally, that for the first time in human history allows people to really maintain rich connections with much larger numbers of people.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Dont worry for contact <br> i`m available</h2>
+        <button class="btn btn-danger">Contact Now</button>
+    </div>
+</body>
+</html>
